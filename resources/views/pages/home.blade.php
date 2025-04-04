@@ -1,0 +1,9 @@
+@extends('layouts.app')
+@section('content')
+    @include('components.banner')
+    @include('components.about')
+    @include('components.gallery')
+    @include('components.services')
+    @include('components.testimonial')
+    @include('components.contact')
+@endsection
